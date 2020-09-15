@@ -14,7 +14,7 @@ import uploadConfig from './config/upload';
 const app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: '*',
   optionsSuccessStatus: 200,
 };
 app.use(cors(corsOptions));

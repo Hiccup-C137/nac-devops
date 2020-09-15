@@ -14,7 +14,7 @@ require("./database");
 const upload_1 = __importDefault(require("./config/upload"));
 const app = express_1.default();
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: '*',
     optionsSuccessStatus: 200,
 };
 app.use(cors_1.default(corsOptions));
